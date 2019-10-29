@@ -14,6 +14,6 @@ Continuous Deployment with Jenskins on Elastic beanstalk Service on AWS.
 
 ### Setup Jenkins
 
-##### On the Jenkins dashboard, click on Manage Jenkins and select Manage Plugins. Click on the Avaiable tab and install:
+##### On the Jenkins dashboard, click on Manage Jenkins and select Manage Plugins. Click on the Avaiable tab and install then Restart:
       * Github API Plugin
       * GitHub Plugin
