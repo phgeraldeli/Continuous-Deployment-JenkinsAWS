@@ -11,10 +11,10 @@ pipeline {
 
         stage('Testando') {
             steps {
-                'echo Testando'
+                echo 'Testando'
             }
         }
-        
+
 
     }
 }
