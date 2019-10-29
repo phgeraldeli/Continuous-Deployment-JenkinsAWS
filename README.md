@@ -1,6 +1,6 @@
 # Continuous-Deployment-JenkinsAWS
 
-Continuous Deployment with Jenskins on Elastic beanstalk Service on AWS.
+Java Application with Continuous Deployment on Elastic beanstalk Service using Jenkins.
 
 ## Set up Prerequisites
       * Jenkins running
@@ -13,6 +13,10 @@ Continuous Deployment with Jenskins on Elastic beanstalk Service on AWS.
 ##### Access [Quarkus](https://code.quarkus.io/) to start a project
 
 ### Initial Setup Jenkins
+
+##### Create Jenkins
+
+>>> Em construção <<<
 
 ##### On the Jenkins dashboard, click on Manage Jenkins and select Manage Plugins. Click on the Avaiable tab and install then Restart:
       * Github API Plugin
@@ -51,4 +55,12 @@ pipeline {
     }
 }
 ```
-- then commit and push, your jenkins is running.
+-commit and push, your jenkins is running.
+
+### Setup Elastic beanstalk instance.
+
+>>> Em construção <<<
+
+### Deploying
+
+>>> Em construção <<<
