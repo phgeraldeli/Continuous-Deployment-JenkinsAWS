@@ -3,8 +3,6 @@
 Java Application with Continuous Deployment on Elastic beanstalk Service using Jenkins.
 
 ## Set up Prerequisites
-      * Jenkins running
-      * AWSEB Deployment Jenkins Plugin
       * Java8+
       * Maven
   
