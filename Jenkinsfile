@@ -1,20 +1,23 @@
 pipeline {
     
     agent any
+    tools {
+        jdk 'jdk_1.8.0'
+        maven 'Maven'
+    }
 
     stages {
         stage('Compilando') {
             steps {
-               echo 'Compilando'
+                sh 'mvn clean install -DskipTests' 
             }
         }
 
         stage('Testando') {
             steps {
-                echo 'Testando'
+                sh 'mvn verify'
             }
         }
-
 
     }
 }
