@@ -14,7 +14,29 @@ Java Application with Continuous Deployment on Elastic beanstalk Service using J
 
 ##### Create Jenkins
 
->>> Em construção <<<
+- Go to http://aws.amazon.com/ and create a EC2 Instance.
+- Connect to your instance with ssh
+
+- Use following command:
+```
+Install Java8
+sudo yum install java-1.8.0
+
+Update
+sudo yum update –y
+
+Install Jenkins
+sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+sudo rpm — import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+sudo yum install jenkins -y
+
+Start Jenkins
+systemctl start jenkins.service
+systemctl enable jenkins.service
+
+```
+- Get AWS EC2 instance IP Address and access IP:8080
+
 
 ##### On the Jenkins dashboard, click on Manage Jenkins and select Manage Plugins. Click on the Avaiable tab and install then Restart:
       * Github API Plugin
